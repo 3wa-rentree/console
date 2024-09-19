@@ -1,0 +1,85 @@
+body {
+    color: black;
+    margin: 20px;
+    padding: 0;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Styling for headings */
+h1, h2 {
+    color: #333;
+}
+
+/* Ordered list styling */
+ol {
+    background-color: #e9e9e9;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+/* Styling for code inside list */
+code {
+    background-color: #eef;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: monospace;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #333;
+    color: white;
+}
+
+table td {
+    background-color: #fff;
+}
+
+/* Unordered list styling */
+ul {
+    list-style-type: disc;
+    margin-top: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Paragraph and span styling */
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+span#number {
+    font-weight: bold;
+    color: #d9534f;
+}
+
+/* Link styling */
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

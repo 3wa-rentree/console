@@ -4,17 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mystery.css" />
   </head>
   <body>
-    <h1>Chiffre 4</h1>
+    <h1>chiffre4</h1>
     <ol>
       <li>Ouvrir un terminal</li>
       <li>
-        Ecrire <code>ls</code> pour afficher les dossiers et fichiers dans le
-        dossier actuel
+        Ecrire <code>ls</code> pour afficher les fichiers du dossier actuel
       </li>
-      <li>Ecrire <code>cd texts</code> /Aller dans le dossier "texts" pour</li>
+      <li>Ecrire <code>cd texts</code> pour se positionner dans le dossier "texts".</li>
       <li>cat t1.txt t2.txt | sort | head -n 1 | cut -c 1</li>
       <li>Le chiffre obtenu est le quatrième chiffre.</li>
     </ol>
@@ -23,12 +22,14 @@
         <tr>
           <th>Commande</th>
           <th>Utilisation</th>
+          <th>Exemple</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>ls</td>
           <td>Affiche la liste des fichiers dans un dossier.</td>
+          <td><code>ls</code></td>
         </tr>
         <tr>
           <td>cd</td>
@@ -36,14 +37,17 @@
             Permet de changer de dossier (par exemple, aller dans un autre
             dossier).
           </td>
+          <td><code>cd texts</code></td>
         </tr>
         <tr>
           <td>cat</td>
           <td>Affiche le contenu d'un fichier dans le terminal.</td>
+          <td><code>cat t1.txt</code></td>
         </tr>
         <tr>
           <td>sort</td>
           <td>Trie les lignes d'un fichier dans l'ordre alphabétique.</td>
+          <td><code>sort t1.txt</code></td>
         </tr>
         <tr>
           <td>|</td>
@@ -51,26 +55,26 @@
             Relie deux commandes, pour utiliser la sortie de l'une comme entrée
             de l'autre.
           </td>
+          <td><code>cat t1.txt | sort</code></td>
         </tr>
         <tr>
           <td>head</td>
-          <td>Affiche les premières lignes d'un fichier.</td>
+          <td>Affiche les premières lignes d'un fichier. L'option -n spécifie le nombre de lignes à afficher à partir du début du fichier.</td>
+          <td><code>head -n 5 t1.txt</code></td>
         </tr>
         <tr>
           <td>cut</td>
           <td>
             Extrait une partie spécifique du contenu d'un fichier, comme une
-            colonne ou des caractères.
+            colonne ou des caractères. L'option -c indique que l'on extrait des caractères.
           </td>
+          <td><code>cut -c 1 t1.txt</code></td>
         </tr>
       </tbody>
     </table>
-    <h2>Chiffre 5</h2>
+    <h2>chiffre5</h2>
     <ul>
-      <li>
-        Aller dans script.js. "Ctrl + A" puis "Ctrl + /" pour sélectionner et
-        décommenter le code.
-      </li>
+      <li>Aller dans script.js</li>
       <li>GoTo > Next Error (Alt + E)</li>
       <li>Enlever les lignes de script.js avec des erreurs et run le code.</li>
     </ul>
